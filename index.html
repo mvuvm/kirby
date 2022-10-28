@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        TODO
+        meta로 웹사이트 정보 남기기
+    -->
+    <title>별의 커비 포탈</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/fivicon.png">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/2229480eb5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <div class="header_inner">
+                <div class="header_menu">
+                    <h1 class="logo">
+                        <a href="/"><span class="blind">별의 커비 포탈</span></a>
+                    </h1>
+                    <button type="button" class="btn_menu_open">
+                        <span class="blind">메뉴 열기</span>
+                    </button>
+                    <nav class="gnb">
+                        <ul>
+                            <li><a href="#introduce">Introduce</a></li>
+                            <li><a href="#gametitle">Game Title</a></li>
+                            <li><a href="#character">Character</a></li>
+                            <li><a href="#news">News</a></li>   
+                        </ul>
+                    </nav>
+                    <button type="button" class="btn_menu_close">
+                        <span class="blind">메뉴 닫기</span>
+                    </button>
+                </div>
+            </div>
+            <div class="header_bg">
+                <div class="header_kirby"><img src="./images/head_kirby.png" alt=""></div>
+            </div>
+            <div class="line_bottom"></div>
+        </header>
+
+        <section class="introduce_section" id="introduce">
+            <div class="inner">
+                <div class="cont">
+                    <div class="col">
+                        <div class="info">
+                            <img src="./images/kirby.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2 class="sec_tit typeA">Introduce</h2>
+                        <div class="txt">
+                            <strong>커비는 누굴까?<span>What’s Kirby?</span></strong>
+                            <p>삼키고, 뱉고, 카피 하고,<br/>
+                                모두를 구하고, 낮잠을 자고,<br/>
+                                모두와 즐겁게 놀고, 다시 낮잠을 자고...</p>
+                            <p>앞으로도 계속계속 부풀어나갈<br/>
+                                커비의 ‘지금’ 을 이 페이지를 통해서<br/>
+                                느껴보세요!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery_section" id="gametitle">
+            <div class="line_top"></div>
+            <div class="inner">
+                <h2 class="sec_tit typeB">Game Title</h2>
+                <div class="cont">
+                    <div class="swiper gallery_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./images/game-title1.jpg" alt="">
+                                <strong>별의 커비 디스커버리</strong>
+                                <p>2022년 3월 25일 발매</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/game-title2.jpg" alt="">
+                                <strong>커비파이터즈2</strong>
+                                <p>2020년 9월 24일 배신 개시</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/game-title3.jpg" alt="">
+                                <strong>커비의 드림 뷔페</strong>
+                                <p>2022년 8월 17일 배신개시</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/game-title4.jpg" alt="">
+                                <strong>슈퍼 커비 헌터즈</strong>
+                                <p>2019년 9월5일 배신개시</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./images/game-title5.jpg" alt="">
+                                <strong>별의 커비 스타 얼라이즈</strong>
+                                <p>2018년 3월 16일 발매</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line_bottom"></div>
+        </section>
+
+        <section class="charecter_section" id="character">
+            <div class="inner">
+                <h2 class="sec_tit typeA">Charecter</h2>
+                <div class="cont">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="wd-box">
+            <div class="charecter_bottom"></div>
+        </div>
+
+        <section class="news_section" id="news">
+            <div class="inner">
+                <h2 class="sec_tit typeA">News</h2>
+                <div class="cont">
+                    <ul>
+                    </ul>
+                </div>
+                <button class="btn_news_more">더보기 +</button>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="inner">
+                <div class="footer_logo_box">
+                    <a href="/"><span class="blind">별의 커비 포탈</span></a>
+                </div>
+                <div class="footer_sns_box">
+                    <a href="https://www.nintendo.co.jp/"><i class="fa-solid fa-gamepad"></i><span class="blind">닌텐도 홈페이지</span></a>
+                    <a href="https://twitter.com/Kirby_JP"><i class="fa-brands fa-twitter"></i><span class="blind">별의 커비 공식 트위터</span></a>
+                    <a href="https://www.hallab.co.jp/"><i class="fa-solid fa-wrench"></i><span class="blind">게임 제작사 홈페이지</span></a>
+                </div>
+            </div>
+            <small class="copyright">@Nintendo / HAL Laboratory, Inc</small>
+        </footer>
+
+        <button class="btn_scrollTop">
+            <i class="fa-solid fa-angle-up"></i>
+            <span class="blind">사이트 최상위로 가기</span>
+        </button>
+    </div>
+
+    <div class="character_pop">
+        <div class="dim"></div>
+        <div class="content">
+            <div class="img_wrap">
+                <img src="" alt="">
+            </div>
+            <h1></h1>
+            <div class="txt_box">
+                <p></p>
+            </div>
+            <button class="btn_close"><span class="blind">팝업닫기</span></button>
+        </div>
+    </div>
+
+    <div class="news_pop">
+        <div class="dim"></div>
+        <div class="content">
+            <h1></h1>
+            <p></p>
+            <div class="img_wrap">
+            </div>
+            <button class="btn_close"><span class="blind">팝업닫기</span></button>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="./js/common.js"></script>
+</body>
+</html>
